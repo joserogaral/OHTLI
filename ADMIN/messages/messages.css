@@ -1,0 +1,126 @@
+/* Conditions */
+* {
+    box-sizing: border-box;
+  }
+ 
+  html{
+    font-size: 62.5%;
+  } 
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .container{
+    display: flex;
+    background-image: url(../../images/img/adminlogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container h3{
+    font-size: 2rem;
+}
+
+
+.contt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    padding: 5rem;
+}
+
+.titu h3{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.titu{
+    padding: 2rem;
+}
+
+.contt th{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #727272;
+    color: white;
+    padding: 2rem;
+}
+
+.contt td{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.men11 a{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.men11{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.men11 h3{
+    font-size: 2rem;
+}
+
+.container22{
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmmlk{
+    display: flex;
+    flex-direction: row;
+}
+
+.ttyydd{
+    width: 100%;
+    position: relative;
+    margin-left: 25%;
+    height: 100%;
+}
+
+.ancho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.men11 a:hover{
+    background-color: #cfcfcf;
+    border-radius: 2rem;
+}
+
+
+.material-symbols-outlined {
+    font-size: 3rem;
+}
+
+

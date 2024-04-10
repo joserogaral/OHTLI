@@ -1,0 +1,190 @@
+/* Conditions */
+* {
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 62.5%;
+  } 
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-image: url(../../images/img/adminlogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 5rem;
+  }
+
+  .container h1{
+    font-size: 5rem;
+  }
+
+  .rowee{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 1rem 0rem 2rem;
+  }
+
+  .prod button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+  }
+
+  .prod img{
+    width: 43%;
+  }
+
+  .prod h1{
+    font-size: 3rem;
+  }
+
+  .prod button:hover{
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100%  { transform: scale(1); }
+    30%  { transform: scale(1.2);}
+}
+
+
+
+
+
+.men11 a{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center; 
+  gap: 1rem;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.men11{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.men11 h3{
+  font-size: 2rem;
+}
+
+
+.container22{
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.ancho{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.ttyydd{
+  width: 100%;
+  position: relative;
+  margin-left: 25%;
+}
+
+.cmmlk{
+  display: flex;
+}
+
+.men11 a:hover{
+  background-color: #cfcfcf;
+  border-radius: 2rem;
+}
+
+
+.material-symbols-outlined {
+    font-size: 3rem;
+}
+
+.mllv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mllv h2{
+    font-size: 3rem;
+}
+
+.ord{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.chag{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.orgsho{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.orgsho label{
+  font-size: 1.5rem;
+}
+
+.shoe select{
+  font-size: 1.5rem;
+}
+
+.ordcen{
+  text-align: center;
+}
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  gap:  2rem;
+}
+
+.rowi{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body{
+  padding: 3rem;
+}
